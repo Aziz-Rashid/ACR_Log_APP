@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.displayflex{
+    display: flex;
+    justify-content: space-between;
+   margin-top: 15px;
+}
+.hawaw{
+    width: 100%;
+    overflow-x: scroll;
+}
+
+
+
+.fact{
+    width: 50%;
+    margin: auto;
+    border: 1px solid rgb(61, 64, 82);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-top: 50px;
+    padding: 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+}
+.fa{
+    font-weight: bold;
+    color:rgb(61, 64, 82);
+    text-align: center;
+    font-size: 22px;
+}
+
+
+.Container{
+    width: 100%;
+    height: 100vh;
+}
+.loginBg{
+    width: 100%;
+    background-color: #f7f7f7;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.login_truck{
+    background-image: url('../public/truck.jpeg');
+    width: 60%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.loginContainers{
+    width: 455px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 44px -10px rgba(0, 0, 0, 0.06);
+    border-radius: 30px;
+    margin: 0 20px;
+}
+.btn{
+    width: 100%;
+    background: #FF9900;
+    border-radius: 3px;
+    height: 48px;
+    border: 0;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.loginBox{
+    width: 315px;
+    margin: auto;
+}
+.loginName{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+    color: #000000;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.interest{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.3px;
+    color: #000000;
+}
+.inputPass{
+    width: 100% !important;
+}
+.LoginEmailName{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 14px;
+    /* identical to box height */
+    letter-spacing: -0.3px;
+    color: #C4C4C4;
+    padding-top: 20px;
+    
+}
+.inp_Email{
+    height: 43px !important;
+    border: none !important;
+    border-bottom: 1px solid rgb(236, 234, 234) !important;
+
+}
+.forgot{
+    text-align: right;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: -0.08px;
+    color: black;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.ant-modal-header{
+    border: none !important;
+    background-color: rgb(61, 64, 82) !important;
+}
+.ant-modal-footer{
+    border: none !important;
+    background-color: rgb(61, 64, 82) !important;
+}
+.ant-modal-title{
+    color: white !important;
+    font-weight: bold;
+}
+.nansah{
+    background: transparent;
+    padding: 4.5px;
+    border-radius: 5px;
+    margin-left: 20px;
+    border: 1px solid gray;
+    outline: none;
+}
+.ant-modal-close-x{
+    color: white !important;
+}
+.iaiasw{
+    display: flex;
+    border: 1px solid lightgray;
+    width: 30%;
+    justify-content: space-between;
+    margin-top: 5px;
+    border-radius: 10px;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.datessw{
+    padding-left: 30px;
+    color: #3d4052;
+    margin: 0px;
+}
+.az{
+    color: blue;
+    cursor: pointer;
+    margin: 0px;
+
+}
+.acc{
+    /* padding-top: px; */
+    text-align: center;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: -0.08px;
+    color: #7E8389;
+}
+.acc > span{
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+}
+.hed{
+    font-family: Maven Pro;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 4px;
+    color: #000000;
+}
+.inp-int{
+    border: 1px solid rgba(132, 142, 153, 0.19) !important;
+    box-shadow: 0px 4px 24px -10px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 3px !important;
+}
+.hed_text{
+    width: 210px;
+    text-align: center;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #000000;
+}
+.logos{
+    width: 80px;
+    height: 150px;
+    text-align: center;
+}
+.selectdata{
+    width: 73px;
+    height: 24px;
+    background: #FFCF23;
+    border-radius: 1.92233px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    margin: 5px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.192233px;
+    color: #FFFFFF;
+    position: relative;
+}
+.selectdata2{
+    width: 73px;
+    height: 24px;
+    background: #C4C4C4;
+    border-radius: 1.92233px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    margin: 5px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.192233px;
+    color: #FFFFFF;
+}
+.flexing{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.deleteInterest{
+    color: black;
+    position:absolute;
+    bottom: 12px;
+    left: 68px;
+}
+.congratz{
+    width: 100%;
+    height: 100vh;
+}
+.cong-head{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #000000;
+}
+.congs{
+    position: relative;
+    top: 40px;
+}
+.cong{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #000000;
+}
+.congPic{
+    width: 10%;
+    text-align: center;
+    position: relative;
+    top: 215px;
+    left: 19px;
+}
+.congPics{
+    position: relative;
+    width: 22%;
+}
+.bhj{
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+.congpara{
+    width: 220px;
+    margin: auto;
+}
+.pa{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #000000;
+}
+@media screen and (max-width: 1000px) and (min-width: 300px) {
+   
+    .loginBg{
+        background-image: url('../public/truck.jpeg');
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100vh;
+        align-items: center;
+        display: block;
+        background-size: cover;
+      
+    }
+    .login_truck{
+        display: none;
+    }
+    .inputPass{
+        width: 100% !important;
+        display: block;
+    }
+    .loginContainers{
+        width: 90%;
+        height: auto;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 44px -10px rgba(0, 0, 0, 0.06);
+        border-radius: 30px;
+        margin: auto;
+        position: relative;
+        top: 130px;
+    }
+    .loginBox{
+        width: 80%;
+        margin: auto;
+    }
+    .hed_text{
+        width: 50%;
+        text-align: center;
+        font-family: Raleway;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 150%;
+        text-align: center;
+        letter-spacing: -0.3px;
+        color: #000000;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+    .acc{
+        padding-top: 30px;
+        text-align: center;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 18px;
+        letter-spacing: -0.08px;
+        color: #7E8389;
+        padding-bottom: 20px;
+        /* padding-bottom: 20px; */
+    }
+    .logos{
+        padding-top: 30px;
+        width: 70px;
+        height: 120px;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .selectdata2{
+        width: 60px;
+        height: 24px;
+        background: #C4C4C4;
+        border-radius: 1.92233px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 14px;
+        margin: 5px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: -0.192233px;
+        color: #FFFFFF;
+    }
+    .selectdata{
+        width: 60px;
+        height: 24px;
+        background: #FFCF23;
+        border-radius: 1.92233px;
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 10px;
+        line-height: 14px;
+        margin: 5px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: -0.192233px;
+        color: #FFFFFF;
+        position: relative;
+    }
+    .deleteInterest{
+        color: black;
+        position:absolute;
+        bottom: 12px;
+        left: 55px;
+    }
+    .congPic{
+        width: 25%;
+        text-align: center;
+        position: relative;
+        top: 274px;
+        left: 20px;
+
+    }
+    .congPics{
+        position: relative;
+        width: 60%;
+    }
+}
+@media screen and (max-width: 1500px) and (min-width: 1200px) {
+    .congPics{
+        position: relative;
+        width: 20%;
+    }
+    .congPic{
+        width: 10%;
+        text-align: center;
+        position: relative;
+        top: 165px;
+        left: 19px;
+    }
+}
+
+@media screen and (max-width: 1200px) and (min-width: 1001px) {
+    .congPics{
+        position: relative;
+        width: 30%;
+    }
+    .congPic{
+        width: 15%;
+        text-align: center;
+        position: relative;
+        top: 205px;
+        left: 21px;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 300px){
+    .congPics{
+        position: relative;
+        width:90%;
+    }
+    .congPic{
+        width: 40%;
+        text-align: center;
+        position: relative;
+        top: 207px;
+        left: 17px;
+    }
+}

@@ -1,0 +1,300 @@
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main {
+  padding: 5rem 0;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer img {
+  margin-left: 0.5rem;
+}
+
+.footer a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+.title a:hover,
+.title a:focus,
+.title a:active {
+  text-decoration: underline;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 4rem;
+}
+
+.title,
+.description {
+  text-align: center;
+}
+
+.description {
+  line-height: 1.5;
+  font-size: 1.5rem;
+}
+
+.code {
+  background: #fafafa;
+  border-radius: 5px;
+  padding: 0.75rem;
+  font-size: 1.1rem;
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+    Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-top: 3rem;
+}
+
+.card {
+  margin: 1rem;
+  flex-basis: 45%;
+  padding: 1.5rem;
+  text-align: left;
+  color: inherit;
+  text-decoration: none;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+  border-color: #0070f3;
+}
+
+.card h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.logo {
+  height: 1em;
+}
+.changes{
+  text-align: left;
+}
+.changes2{
+  text-align: right;
+}
+.head{
+  transition: 1s;
+  background-color: white;
+  cursor: pointer;
+  border: 1px solid gray;
+  border-radius: 10px 0 10px 0px !important;
+}
+.head:hover{
+  background-color: gray !important;
+  color: white !important;
+  Transform:scale(0.8);
+}
+.hj{
+  height: 450px !important;
+  width:100% !important;
+  margin:auto !important; 
+}
+.jk{
+  text-align: center;
+  margin: 20px auto;
+  width: 100%; 
+  box-shadow: rgba(100, 120, 111, 0.5) 0px 7px 29px 0px 
+}
+.jk > h1{
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 959px) and (min-width: 300px) {
+  .changes{
+    text-align: center;
+  }
+  .changes2{
+    text-align: center;
+  }
+  .head{
+    font-size: 18px !important;
+    border: 1px solid gray !important;
+    border-radius: 5px 0px 5px 0px !important;
+  }
+  .hj{
+    height: auto !important;
+    width:100% !important;
+    margin: auto !important;
+  }
+  .jk{
+    font-size: 18px !important;
+    width: 100% !important; 
+    text-align: center !important;
+    box-shadow: rgba(100, 120, 111, 0.5) 0px 7px 29px 0px !important; 
+  }
+  .jk > h1{
+    text-align: center;
+    font-size:16px !important;
+  }
+}
+
+
+
+/* <Grid container spacing={1} alignItems="center" justify="center">
+            <Grid item xs={12} md={12}>
+              <Typography
+                border={1}
+                style={{
+                  textAlign: "center",
+                  width: `${isMobile ? "80%" : "20%"}`,
+                  border: "1px solid black",
+                  borderRadius: "10px",
+                  margin: "10px auto",
+                }}
+                variant="h5"
+              >
+                {row.id}
+              </Typography>
+            </Grid>
+            {level == "Admin" ? (
+              //<div className={classes.chipContainer}>
+              <>
+                <Grid item xs={12} md={4}>
+                  <Chip
+                    style={{ fontWeight: 500 }}
+                    label={`${row.pickup.city},${row.pickup.state} - ${row.delivery.city},${row.delivery.state}`}
+                    className={classes.route}
+                  />
+                </Grid>
+                <Grid item xs={12} md={4}>
+                  <Chip
+                    label={`${row.broker.name}`}
+                    className={classes.broker}
+                  />
+                </Grid>
+                <Grid item xs={12} md={4}>
+                  <Chip label={row.driver.name} className={classes.driver} />
+                </Grid>
+                <Grid item xs={4} md={2}>
+                  <Chip
+                    style={{ width: "100%" }}
+                    label={`$${rowPrice}`}
+                    className={classes.price}
+                  />
+                </Grid>
+                <Grid item xs={4} md={2}>
+                  <Chip
+                    style={{
+                      width: "100%",
+                    }}
+                    label={row.status}
+                    className={
+                      row.status != "In Transit"
+                        ? classes[row.status]
+                        : classes["Loaded"]
+                    }
+                  />
+                </Grid>
+
+                {row.invoiced == true && row.status != "Paid" ? (
+                  <Grid item xs={4} md={2}>
+                    <Chip style={{ width: "100%" }} label={"Invoiced"} />
+                  </Grid>
+                ) : null}
+                {row?.dets?.length > 0 ? (
+                  <Grid item xs={4} md={2}>
+                    <Chip
+                      className={classes.Det}
+                      style={{ width: "100%" }}
+                      label={"DET"}
+                    />
+                  </Grid>
+                ) : null}
+                {row?.tonu == true ? (
+                  <Grid item xs={4} md={2}>
+                    <Chip
+                      className={classes.Det}
+                      style={{ width: "100%" }}
+                      label={"TONU"}
+                    />
+                  </Grid>
+                ) : null}
+                {row?.orderNotes != "" && row?.orderNotes != undefined ? (
+                  <Grid item xs={4} md={2}>
+                    <Chip
+                      className={classes.Notes}
+                      style={{ width: "100%" }}
+                      label={"NOTES"}
+                    />
+                  </Grid>
+                ) : null}
+              </>
+            ) : (
+              <Grid item xs={4} md={2}>
+                <Chip
+                  label={row.status}
+                  style={{ width: "100%" }}
+                  style={{ marginLeft: "auto" }}
+                  className={
+                    row.status != "In Transit"
+                      ? classes[row.status]
+                      : classes["Loaded"]
+                  }
+                />
+              </Grid>
+            )}
+            <Grid item xs={12} md={12}>
+              <IconButton
+                style={{ width: "100%", margin: "auto" }}
+                aria-label="expand row"
+                size="small"
+              >
+                {openAcc ? <KeyboardArrowDownIcon /> : <KeyboardArrowUpIcon />}
+              </IconButton>
+            </Grid>
+            {/* row content end */
+          /* </Grid> 
+          */
+          
